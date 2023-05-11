@@ -1,0 +1,91 @@
+
+
+body{
+    background-color:#060606 ;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+div{
+    background-color:#F2E205 ;
+    text-align: center;
+    width:340px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding: 30px; /*espaçamento interno*/
+    
+}
+
+
+img{
+    width: 100px;
+    border-radius: 50px;
+    border: 5px #060606 solid;
+    margin-bottom: 30px;
+    
+    /*
+    border-width: 5px;
+    border-color: #060606;
+    border-style: solid;
+    */
+}
+
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    color: #363636;
+    font-size: 20px;
+}
+
+
+p{
+   /*font-weight:;*/
+   color: #060606;
+   font-weight: normal;
+   font-size: 15px; 
+}
+ul{
+    padding: 0;
+   /* list-style-position: ;*/
+   list-style-type: none;/*remove o marcador da lista*/
+}
+li{
+    margin-bottom: 5px;
+}
+ul a{
+    background-color: #060606;
+    color: #ffff;
+    display:block;/*ocupa o bloco todo*/
+    text-decoration:none;/*tira sublinhado dos links*/
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*se passa o mouse passa a borda*/
+
+ul a:hover{
+background-color:#735703;
+text-decoration:underline;
+}
+
+#link-rodape:hover{
+    color:#060606;
+}
+
+@media (max-width: 500px){
+
+div{
+    width:300px;
+ }
+ul a{
+    padding: 100px;
+}
+
+img{
+    width:70px;
+}
+}
